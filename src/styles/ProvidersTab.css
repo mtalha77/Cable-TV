@@ -1,0 +1,29 @@
+.CheckProviders {
+  padding-bottom: 100px;
+  padding-top: 100px;
+  padding-left: 60px;
+  padding-right: 60px;
+}
+.CheckProviders .title {
+  color: #df0303;
+  font-family: "Montserrat", Sans-serif;
+  font-size: 16px;
+  line-height: 16px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  text-align: center;
+}
+.CheckProviders .heading {
+  color: #222121;
+  font-family: "Montserrat", Sans-serif;
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 50px;
+  letter-spacing: 1px;
+  text-transform: capitalize;
+  text-align: center;
+}
+.CheckProviders p {
+  color: black;
+}

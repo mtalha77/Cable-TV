@@ -1,0 +1,239 @@
+.app-container {
+  max-width: 1164px;
+  margin: auto;
+  padding: 0 15px;
+}
+.Navbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.ImgLogo {
+  width: 190px;
+}
+.rightSide a {
+  text-decoration: none;
+  padding: 28px;
+  color: black;
+  font-size: 12px; /* Initial font size */
+  transition: color 0.3s ease, transform 0.3s ease, font-size 0.5s ease; /* Adding transitions for color, transform, and font size */
+}
+
+.rightSide a:hover {
+  color: #DF0909; /* Change color to red on hover */
+  transform: scale(0.95); /* Zoom out slightly on hover */
+  font-size: 14px; /* Decrease font size on hover */
+  font-weight: 700;
+}
+
+
+.header-searchBar {
+  width: 20%;
+  padding: 10px;
+  border: 0;
+  margin-bottom: 0px;
+  background: #9697adad;
+  transition: background-color 0.3s ease; 
+ 
+}
+.header-searchBar:hover {
+  background-color: #DF0909;
+  cursor: pointer; /* Change background color to red on hover */
+ 
+  
+}
+
+.header-searchBar:hover::placeholder {
+  color: white; /* Change placeholder text color to white on hover */
+}
+
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropbtn {
+  background-color: #ffffff;
+  color: #333;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #fff;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+  position: absolute;
+  display: inline-grid;
+  margin-top: 36px;
+  margin-left: -105px;
+  width: max-content;
+  /* padding: 10px; */
+}
+.dropdown-content a {
+  padding: 20px;
+}
+.dropdown-content a:hover {
+  background: #df0303;
+  color: white;
+  padding: 20px;
+}
+
+/* Media query for screens greater than 1024px */
+@media (min-width: 1025px) {
+  .sidebar {
+    display: none;
+  }
+
+  /* .rightSide {
+    display: flex;
+  } */
+  .menu-button {
+    display: none;
+  }
+}
+@media (max-width: 1024px) {
+  .Navbar .rightSide {
+    display: none;
+  }
+  .menu-button {
+    background: #010c3a;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+  }
+  .menu-button:hover {
+    background: #010c3a;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+  }
+  .menu-button {
+    font-size: 14px;
+    cursor: pointer;
+    background: #010c3a;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 10px;
+  }
+
+  /* Styles for the sidebar */
+  .sidebar {
+    position: fixed;
+    top: 0;
+    right: 0;
+    /* left: -5; */
+    width: 0px;
+    height: auto;
+    background-color: #010c3a;
+    box-shadow: 0px 0px 10px rgba(1, 12, 58, 0.37);
+    transition: left 0.3s ease-in-out;
+    right: 98px;
+  }
+
+  /* Show the sidebar when it's open */
+  .sidebar.active {
+    left: 0;
+  }
+
+  /* Styles for sidebar header */
+  .sidebar-header {
+    text-align: right;
+    padding: 10px;
+  }
+
+  /* Styles for close button */
+  .close-button {
+    font-size: 24px;
+    background: white;
+    border: none;
+    cursor: pointer;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+
+  /* Styles for sidebar content */
+  .sidebar-content {
+    padding: 20px;
+  }
+
+  /* Styles for links in sidebar */
+  .sidebar-content a {
+    font-family: "Montserrat", Sans-serif;
+    text-transform: uppercase;
+    display: block;
+    margin-bottom: 10px;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 600;
+  }
+
+  /* Styles for dropdown */
+  .dropdown {
+    position: relative;
+  }
+
+  /* Styles for dropdown button */
+  .dropbtn {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    color: #333;
+    text-align: left;
+  }
+  .menu-button {
+    margin: 10px;
+  }
+
+  .sidebar {
+    width: 37%;
+  }
+
+  .sidebar.active {
+    left: 0;
+  }
+}
+
+/* Styles for the menu button */
+
+/* Styles for dropdown content */
+/* .dropdown-content {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #f9f9f9;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+} */
+
+/* Show dropdown content on hover */
+/* .dropdown:hover .dropdown-content {
+  display: block;
+} */
+@media only screen and (max-width: 768px) {
+  .ImgLogo {
+    width: 135px;
+  }
+  button.menu-button {
+    width: 87px;
+    height: 35px;
+    padding: 0;
+  }
+}

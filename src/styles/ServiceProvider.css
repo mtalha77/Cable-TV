@@ -1,0 +1,261 @@
+.ServiceProviderBG {
+  height: 700px;
+}
+
+.btn-provider{
+margin-top: 10%;
+}
+
+.title-service-provider{text-align: left;
+  line-height: 80px;
+  color: #df0303;
+  font-family: "Montserrat", Sans-serif;
+  font-size: 30px;
+    line-height: 70px;
+    font-weight: 600;
+}
+
+.AboutContent-provider{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  margin-left: 65px;
+}
+
+.figures-provider{
+  
+  display: flex;
+  padding-top: 30px;
+  align-items: center;
+  gap: 3%;
+ 
+ 
+
+ 
+
+}
+.figures1-provider-p{
+  color: #df0303;
+    font-family: "Montserrat", Sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-align: center;
+    /* margin-left: 5%; */
+    line-height: 1;
+    padding-right: 73%;
+}
+.figures-1-provider{
+  margin-right: 20px;
+  text-align: center;
+}
+
+/* progress bar css  */
+.skill{
+  width: 160px;
+  height: 160px;
+  position: relative;
+}
+.outer{
+  height: 160px;
+  width: 160px;
+  border-radius: 50%;
+  box-shadow: 6px 6px 10px -1px rgba(0, 0, 0, 0.15),
+  6px 6px 10px -1px rgba(255, 255, 255, 0.7)
+  ;
+  padding: 20px;
+  
+ 
+}
+.inner{
+  height: 120px;
+  width: 120px;
+  align-items: center !important;
+  justify-content: center !important;
+  border-radius: 50%;
+  box-shadow: inset 4px 4px 6px -1px rgba(0, 0, 0, 0.2),
+ inset -4px -4px 6px -1px rgba(255, 255, 255, 0.7),
+ -0.5px -0.5px 0px  rgba(255, 255, 255, 1),
+ 0.5px 0.5px 0px  rgba(0, 0, 0, 0.15),
+ 0px 12px 10px -10px rgba(0, 0, 0, 0.05)
+  ;
+
+}
+#number{
+  font-weight: 600;
+  color: #df0303;
+  padding-top: 43%;
+    padding-left: 41%;
+}
+#number-350{
+  font-weight: 600;
+  color: #df0303;
+  padding-top: 43%;
+    padding-left: 41%;
+}
+#number-4k{
+  font-weight: 600;
+  color: #df0303;
+  padding-top: 43%;
+    padding-left: 41%;
+}
+circle{
+  fill: none;
+  stroke: url(#GradientColor);
+  stroke-width: 20px;
+  stroke-dasharray: 472;
+  stroke-dashoffset: 472;
+  animation: anim 2s linear forwards;
+
+}
+
+
+@keyframes anim{
+  100%{
+    stroke-dashoffset: 94;
+  }
+}
+
+svg{
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+
+
+.heading-service-provider{
+  color: #222121;
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 50px;
+  letter-spacing: 1px;
+  text-transform: capitalize;
+}
+.SatelliteSectionDesc-provider{
+  font-size: 18px;
+  color: #222121;
+  font-family: "Roboto", Sans-serif;
+  font-weight: 500;
+  letter-spacing: 1px;
+  line-height: 40px;
+  text-align: left;
+  margin-top: -10px;
+  text-transform: capitalize;
+  width: 87%;
+}
+
+.figures1-provider-p2{
+  text-align: center;
+  margin-top: 14%;
+  margin-left: 12%;
+  color: #222121;
+  font-family: "Montserrat", Sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  width: 70%;
+}
+
+
+p.SatelliteSectionDesc {
+  width: 80%;
+}
+
+.AboutContent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 28px;
+  padding-bottom: 100px;
+  margin-left: 65px;
+}
+/* .leftSide {
+  margin-right: 40px;
+  margin-top: -100px;
+
+} */
+.Counter {
+  background: #df0303;
+  padding: 20px;
+  border-radius: 106px;
+  position: absolute;
+  box-shadow: 0 6px 12px rgba(223, 3, 3, 0.4);
+}
+.Counter p {
+  text-align: center;
+  color: white;
+  font-size: 16px;
+  line-height: 24px;
+  font-family: "Montserrat", Sans-serif;
+  margin-top: 10px;
+}
+.Counter h1 {
+  text-align: center;
+  font-family: "Montserrat", Sans-serif;
+  font-size: 46px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  color: white;
+  margin-top: -10px;
+}
+.Counter h2 {
+  text-align: center;
+  color: white;
+  font-size: 16px;
+  line-height: 24px;
+  font-family: "Montserrat", Sans-serif;
+  margin-top: -10px;
+}
+.rightSide {
+  position: relative;
+}
+
+
+
+
+
+@media screen and (max-width: 1280px) {
+  p.SatelliteSectionDesc {
+    width: 100%;
+  }
+  .AboutContent {
+    margin-left: 1%;
+  }
+  .AboutContent {
+  }
+}
+@media only screen and (max-width: 1024px) {
+  .AboutContent {
+    flex-wrap: wrap;
+    padding-bottom: 5% !important;
+    flex-direction: column-reverse;
+  }
+  .AboutContent .RightSide {
+    margin: 0px;
+  }
+  /* p.SatelliteSectionDesc {
+    width: 100%;
+  } */
+}
+@media only screen and (max-width: 768px) {
+  /* .Counter {
+    left: -47px;
+  } */
+  .AboutContent {
+    flex-direction: column-reverse;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  p.SatelliteSectionDesc {
+    width: 100%;
+  }
+  .serviceimg img {
+    width: 300px;
+    margin-bottom: 20px;
+  }
+}

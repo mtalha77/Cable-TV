@@ -1,0 +1,45 @@
+.Content-PrivacyPolicy {
+  padding-top: 70px;
+  padding-left: 60px;
+  padding-right: 60px;
+  padding-bottom: 70px;
+}
+.Content-PrivacyPolicy .title {
+  text-align: left;
+  color: #df0303;
+  font-family: "Montserrat", Sans-serif;
+  font-size: 16px;
+  line-height: 16px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+.Content-PrivacyPolicy .heading {
+  color: #222121;
+  text-align: center;
+  text-align: left;
+  font-family: "Montserrat", Sans-serif;
+  font-size: 28px;
+  line-height: 50px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  text-transform: capitalize;
+}
+.Content-PrivacyPolicy p {
+  width: 100%;
+  font-size: 16px;
+  color: #222121;
+  font-family: "Roboto", Sans-serif;
+  font-weight: 400;
+  letter-spacing: 1px;
+  line-height: 24px;
+  text-align: justify;
+  /* margin-top: -10px; */
+  text-transform: capitalize;
+}
+@media only screen and (max-width: 540px) {
+  .Content-PrivacyPolicy {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}

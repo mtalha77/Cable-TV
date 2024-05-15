@@ -1,0 +1,73 @@
+/* form {
+  padding: 30px;
+  margin-top: -42px;
+} */
+
+label {
+  display: block !important;
+  margin-bottom: 8px;
+  font-weight: bold;
+  margin-top: 20px;
+  padding-top: 20px;
+  margin-bottom: 10px;
+}
+label:hover {
+  color: red; /* Change the color to red on hover */
+  cursor: pointer;
+}
+input,
+textarea,
+select {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+input:hover,
+textarea:hover,
+select:hover {
+  background-color: #ece2e2;/* Change background color to red on hover */
+  color: rgb(255, 251, 251); /* Change font color to white on hover */
+}
+
+button[type="submit"] {
+  background-color: #010c3a;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 20%;
+  transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1), background-color 0.3s;
+}
+button[type="submit"]:hover {
+  transform: translateY(-5px);
+  background-color: #df0303 !important;
+  box-shadow: 0 6px 12px rgba(223, 3, 3, 0.4);
+}
+
+#services {
+  width: 100%;
+}
+#message {
+  width: 548px;
+  height: 96px;
+  margin-bottom: 30px;
+}
+@media only screen and (max-width: 1024px) {
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+@media only screen and (max-width: 540px) {
+  input,
+  textarea,
+  select,
+  #services,
+  #message {
+    width: 85%;
+  }
+}

@@ -1,0 +1,138 @@
+.Footer {
+  padding-bottom: 10px;
+  padding-top: 60px;
+  padding-left: 60px;
+  padding-right: 60px;
+  background: #010c3a;
+}
+.col-3 {
+  width: 25%;
+}
+
+.FooterContent .footer-logo img {
+  height: 54px;
+  width: 240px;
+}
+.row {
+  display: flex;
+  justify-content: center;
+}
+.footer-text p {
+  width: 100%;
+  font-size: 16px;
+  color: #fff;
+  font-family: "Roboto", Sans-serif;
+  font-weight: 400;
+  letter-spacing: 1px;
+  line-height: 24px;
+  text-align: left;
+  margin-top: -10px;
+  text-transform: capitalize;
+  margin-top: 30px;
+}
+.col-3 h2 {
+  width: 100%;
+  font-size: 18px;
+  color: #fff;
+  font-family: "Montserrat", Sans-serif;
+  font-weight: 600;
+  letter-spacing: 1px;
+  line-height: 18px;
+  text-align: left;
+  margin-top: 0px;
+  text-transform: uppercase;
+  margin-left: 27px;
+}
+.list-item {
+  width: 100%;
+  font-size: 16px;
+  color: #fff;
+  font-family: "Montserrat", Sans-serif;
+  font-weight: 400;
+  letter-spacing: 1px;
+  line-height: 24px;
+  text-align: left;
+  text-transform: capitalize;
+  margin-top: 15px;
+  list-style: none;
+  cursor: pointer;
+}
+.list-item a {
+  list-style: none;
+  text-decoration: none;
+  color: white;
+}
+.postFooter {
+  display: flex;
+  justify-content: center;
+  align-items: last baseline;
+  border-top: 1px solid white;
+  margin-top: 40px;
+}
+.postFooter h2 {
+  width: 80%;
+  color: white;
+  font-size: 16px;
+}
+.postFooter p {
+  width: 20%;
+  text-align: right;
+}
+.SocialIcons {
+  margin-left: 40px;
+}
+.SocialIcons img {
+  padding-right: 10px;
+  transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1), background-color 0.3s;
+  cursor: pointer;
+}
+.SocialIcons img:hover {
+  transform: translateY(-5px);
+}
+.list-item {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.MuiSvgIcon-root.MuiSvgIcon-fontSizeMedium.css-i4bv87-MuiSvgIcon-root {
+  padding-right: 10px;
+  width: 28px;
+}
+.postFooter .privacy-policy a {
+  color: white;
+  font-size: 16px;
+}
+
+@media only screen and (max-width: 1024px) {
+  .col-3 {
+    width: 50%;
+    padding-bottom: 40px;
+  }
+  .postFooter {
+    margin-top: 0px;
+  }
+  .Footer {
+    padding-right: 65px;
+    padding-left: 0px;
+  }
+}
+@media only screen and (max-width: 991px) {
+  .postFooter p {
+    font-size: 14px;
+  }
+  .Footer .col-3 {
+    width: 50%;
+  }
+  .Footer {
+    padding-left: 60px;
+    padding-right: 60px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .content .RightSide {
+    margin-top: 30px;
+  }
+  .Footer .col-3 {
+    width: 100%;
+  }
+}

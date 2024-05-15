@@ -1,0 +1,82 @@
+.HeroContent {
+  height: 425px;
+  text-align: center;
+  padding-top: 80px;
+}
+.btn-findnow {
+  background-color: #df0303;
+  color: #ffffff;
+  border: 0;
+  padding: 12px;
+  border-radius: 2px;
+  cursor: pointer;
+  width: 20%;
+}
+.btn-provider{
+  margin-top: 10%;
+  margin-left: 0px;
+  --bs-btn-padding-x: 0rem !important;
+    --bs-btn-padding-y: 0rem !important;
+
+}
+.searchBar {
+  margin-top: 20px;
+  text-align: center;
+}
+input.searchBar {
+  background-color: #e6e7ecad;
+  border-width: 0;
+  padding: 12px;
+  margin-right: 10px;
+  width: 35%;
+  text-align: left;
+}
+input.searchBar:hover {
+  background-color: #df0303; /* Change to your preferred hover color */
+}
+
+.title {
+  text-align: center;
+  color: #df0303;
+  font-family: "Montserrat", Sans-serif;
+  font-size: 26px;
+  line-height: 50px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+.subTitle {
+  color: #ffffff;
+  font-family: "Montserrat", Sans-serif;
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 50px;
+  letter-spacing: 1px;
+  margin-top: -10px;
+  text-transform: capitalize;
+}
+p {
+  width: 100%;
+  font-size: 18px;
+  color: white;
+  font-family: "Roboto", Sans-serif;
+  font-weight: 400;
+  letter-spacing: 1px;
+  line-height: 24px;
+  text-align: center;
+  margin-top: -10px;
+  text-transform: capitalize;
+}
+@media only screen and (max-width: 1024px) {
+  input.searchBar {
+    width: 50%;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .HeroContent h2.title {
+    padding-top: 20px;
+  }
+  .HeroContent h2.subTitle {
+    font-size: 20px;
+  }
+}

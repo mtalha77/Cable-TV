@@ -1,0 +1,23 @@
+.ReactModal__Content.ReactModal__Content--after-open {
+  position: relative !important;
+}
+.popup {
+  font-size: 18px;
+  margin-top: 10px;
+}
+.popup-title {
+  font-size: 14px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #010c3a;
+}
+input.popup.searchBar {
+  width: 60%;
+}
+button.popup-close-button {
+  position: absolute;
+  right: 0px;
+  top: 0;
+  background: transparent;
+  border: none;
+  padding: 0;
+}

@@ -1,0 +1,178 @@
+.mainSection {
+    padding-bottom: 100px;
+    height: 418px;
+    width: 100%;
+}
+.app-container {
+  max-width: 100%;
+  margin: auto;
+  padding: 0;
+}
+.mainContent {
+ 
+  padding-left: 20px;
+  width: 60%;
+}
+.mainContent .title {
+  color: #222121;
+  font-size: 23px;
+  font-weight: 800;
+  line-height: 19px;
+  width: 100%;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  text-align: left;
+  font-family: Helvetica;
+}
+
+.mainContent .subTitle {
+  color: #222121;
+  font-family: "Montserrat", Sans-serif;
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 62px;
+  letter-spacing: 1px;
+  text-align: left;
+}
+.mainContent p {
+  font-family: "Roboto", sans-serif;
+  width: 69%;
+  color: #222121;
+  word-spacing: 1px;
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  text-transform: initial;
+  text-align: justify;
+}
+.mainContent .searchBar {
+  text-align: left;
+}
+.mainContent input.searchBar {
+  background-color: #9697adad;
+  border-width: 0;
+  padding: 12px;
+  margin-right: 10px;
+  width: 35%;
+  text-align: left;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.mainContent input.searchBar:hover {
+  background-color: #df0303;
+  cursor: pointer;
+  
+}
+
+.searchBar:hover input::placeholder {
+  color: white; /* Change placeholder text color to white on hover */
+}
+
+
+.btn-findnow {
+  background-color: #010c3a !important;
+  color: #ffffff;
+  border: 0;
+  padding: 12px;
+  border-radius: 2px;
+  cursor: pointer;
+  width: 20%;
+  transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1), background-color 0.3s;
+}
+.btn-findnow:hover {
+  transform: translateY(-5px);
+  background-color: #df0303 !important;
+  box-shadow: 0 6px 12px rgba(223, 3, 3, 0.4);
+}
+.searchBar {
+  margin-top: 20px;
+  text-align: left;
+}
+@media screen and (max-width: 1280px) {
+  .mainSection {
+    height: 100%;
+  }
+  .mainContent {
+    padding-left: 50px;
+    padding-top: 40px;
+    width: 100%;
+  }
+  .AboutContent {
+    padding-top: 0px !important;
+    padding-bottom: 0px !important;
+  }
+  /* .AboutContent p {
+    text-shadow: 0 0 black;
+  } */
+}
+
+@media only screen and (max-width: 1024px) {
+  .mainContent .subTitle {
+    font-size: 18px;
+  }
+}
+@media screen and (max-width: 991px) {
+  .mainContent {
+    width: 100%;
+    padding-left: 10px;
+    padding-bottom: 5% !important;
+  }
+  .mainSection {
+    padding-bottom: 0px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .mainContent input.searchBar {
+    width: 120%;
+  }
+
+  .mainSection {
+    height: 380px;
+  }
+  .mainContent .searchBar {
+    text-align: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .mainContent {
+    padding-top: 20px;
+    width: 95%;
+    padding-bottom: 20px;
+  }
+}
+@media only screen and (max-width: 540px) {
+  .mainSection {
+    height: 100%;
+  }
+  .mainContent .title,
+  .mainContent .subTitle {
+    font-size: 14px;
+    padding: 0;
+    /* width: 60%; */
+  }
+}
+@media only screen and (max-width: 414px) {
+  .mainContent .subTitle {
+    font-size: 21px !important;
+    line-height: 30px !important;
+  }
+  .mainContent p {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 375px) {
+  .mainContent .title {
+    font-size: 12px !important;
+  }
+  .mainContent .subTitle {
+    font-size: 18px;
+  }
+  .mainContent p {
+    width: 100%;
+  }
+  .heroContent .title {
+    font-size: 12px;
+  }
+}

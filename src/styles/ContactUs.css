@@ -1,0 +1,91 @@
+.Contact-Content {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  margin-left: 60px;
+  margin-right: 60px;
+}
+.leftSide .title {
+  /* text-align: center; */
+  text-align: left;
+  line-height: 80px;
+}
+li.list-item {
+  text-transform: initial !important;
+}
+ul.list-items {
+  padding-left: 7%;
+}
+
+.leftSide h2.heading {
+  color: #222121;
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 50px;
+  letter-spacing: 1px;
+  text-transform: capitalize;
+}
+.leftSide p {
+  font-size: 16px;
+  color: #222121;
+  font-family: "Roboto", Sans-serif;
+  font-weight: 400;
+  letter-spacing: 1px;
+  line-height: 40px;
+  text-align: left;
+  margin-top: -10px;
+  text-transform: capitalize;
+}
+.col-6 {
+  width: 50%;
+}
+.contact-info .list-item {
+  width: 100%;
+  font-size: 16px;
+  color: #222121;
+  font-family: "Montserrat", Sans-serif;
+  font-weight: 500;
+  letter-spacing: 1px;
+  line-height: 24px;
+  text-align: left;
+  text-transform: capitalize;
+  margin-top: 15px;
+  list-style: none;
+  cursor: pointer;
+}
+.contact-info {
+  margin-left: -44px;
+}
+.contact-info
+  .MuiSvgIcon-root.MuiSvgIcon-fontSizeMedium.css-i4bv87-MuiSvgIcon-root {
+  padding-right: 10px;
+  color: #df0303;
+}
+.Contact-SocialIcons {
+  padding-top: 20px;
+}
+.Contact-SocialIcons img {
+  padding-right: 10px;
+  transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1), background-color 0.3s;
+  cursor: pointer;
+}
+
+.Contact-SocialIcons img:hover {
+  transform: translateY(-5px);
+}
+@media only screen and (max-width: 1024px) {
+  .Contact-Content .col-6 {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 991px) {
+  .leftSide h2.heading {
+    font-size: 20px;
+  }
+}
+@media only screen and (max-width: 991px) {
+  .Contact-Content {
+    padding: 0;
+    padding-bottom: 100px;
+    margin: 0;
+  }
+}

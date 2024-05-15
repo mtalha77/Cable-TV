@@ -1,0 +1,158 @@
+/* Card.css */
+.card {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  text-align: center;
+}
+.card-1,
+.card-2,
+.card-3 {
+  cursor: pointer;
+}
+
+.card-1:hover,
+.card-2:hover,
+.card-3:hover {
+  box-shadow: 0 10px 25px rgba(223, 3, 3, 0.7); /* Red box shadow with increased size and opacity on hover */
+}
+
+.card-content {
+  padding: 30px;
+}
+
+.card-content h3 {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.card-content p {
+  width: 100%;
+  font-size: 16px;
+  color: #222121;
+  font-family: "Roboto", Sans-serif;
+  font-weight: 400;
+  letter-spacing: 1px;
+  line-height: 24px;
+  text-align: left;
+  margin-top: -10px;
+  text-transform: capitalize;
+  margin-top: 15px;
+}
+
+.card-image {
+  width: 100%;
+  max-height: 200px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.img-1 img {
+  width: 100%;
+  border-radius: 5px 5px 0px 0px;
+}
+.BlogContainer {
+  padding-bottom: 100px;
+  padding-top: 100px;
+  margin-left: 65px;
+  margin-right: 65px;
+}
+.blogContent .title {
+  text-align: center;
+  color: #df0303;
+  font-family: "Montserrat", Sans-serif;
+  font-size: 24px;
+  line-height: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+.blogContent .heading {
+  font-family: "Montserrat", Sans-serif;
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 50px;
+  letter-spacing: 1px;
+  text-transform: capitalize;
+  text-align: center;
+  color: #222121;
+}
+.blogContent p {
+  width: 100%;
+  font-size: 17px;
+  color: #222121;
+  font-family: "Roboto", Sans-serif;
+  font-weight: 400;
+  letter-spacing: 1px;
+  line-height: 24px;
+  text-align: center;
+  margin-top: -10px;
+  text-transform: capitalize;
+}
+.cards-app-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 10px;
+}
+.card-1 {
+  width: 100%;
+  margin-left: 20px;
+  margin-right: 20px;
+  box-shadow: 0 6px 12px rgba(6, 6, 6, 0.12);
+  border-radius: 15px 5px 5px 5px;
+ 
+}
+
+
+.card-2 {
+  width: 100%;
+  margin-left: 20px;
+  margin-right: 20px;
+  box-shadow: 0 6px 12px rgba(6, 6, 6, 0.12);
+  border-radius: 5px 5px 5px 5px;
+}
+.card-3 {
+  width: 100%;
+  margin-left: 20px;
+  margin-right: 20px;
+  box-shadow: 0 6px 12px rgba(6, 6, 6, 0.12);
+  border-radius: 5px 5px 5px 5px;
+}
+.card-heading {
+  font-family: "Roboto", Sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  text-transform: capitalize;
+  letter-spacing: 1px;
+  line-height: 25px;
+}
+.btn-blog {
+  background: none;
+  border: none;
+  color: #df0303;
+  transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1), background-color 0.3s;
+  cursor: pointer;
+}
+.btn-blog:hover {
+  color: #df0303;
+  transform: translateY(-5px);
+ 
+}
+
+@media only screen and (max-width: 1024px) {
+  .card-1,
+  .card-2,
+  .card-3 {
+    margin-bottom: 50px;
+  }
+  .cards-app-container {
+    flex-wrap: wrap;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .BlogContainer {
+    margin: 0;
+  }
+}
